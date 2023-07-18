@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33906.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "threading", "threading\threading.csproj", "{ADE3C818-DE1E-417F-ABB7-502190A138D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextSwitching", "ContextSwitching\ContextSwitching.csproj", "{ADE3C818-DE1E-417F-ABB7-502190A138D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
