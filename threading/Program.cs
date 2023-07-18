@@ -16,9 +16,9 @@
 
         private static void WriteUsingNewThread(object? obj)
         {
-            for (int i = 0; i< 1000; i++)
+            for (int i = 0; i < 1000; i++)
             {
-                Console.Write(" Z" + i+ " ");
+                Console.Write(" Z" + i + " ");
             }
         }
     }
