@@ -14,3 +14,20 @@ Share memory(Heap) with other threads running in the same application
 
 Processes:
 Are fully isolated from each other
+
+Thread Pool:
+Every thread has overhead in time and memory
+Thread pools reduce the performance penalty by sharing and recycling threads
+Thread pools only create background threads
+Limits the no of threads that can run simultaneously
+When limit is reached, all jobs from a queue and begin only when another job finishes
+Thread.CurrentThread.IsThreadPoolThread property - determines if the execution is happening on a pool thread
+	-Ways to enter a Thread Pool:
+		-TPL
+		-Asynchronous delegate
+		-Background worker
+		-Call ThreadPool.QueueUserWorkItem
+
+Background Thread:
+Identical to foreground threads, except the managed execution environment is not kept running
+If the main thread dies, background threads will terminate abruptly
