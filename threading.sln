@@ -9,8 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedResources", "SharedRe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79A55CC7-A315-41D8-B7FC-A3356E7EBD7E}"
 	ProjectSection(SolutionItems) = preProject
-		info.txt = info.txt
 		README.md = README.md
+		info.yaml = info.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMemory", "LocalMemory\LocalMemory.csproj", "{6B101810-2DC9-46D6-8642-3BD27ED81BEF}"
