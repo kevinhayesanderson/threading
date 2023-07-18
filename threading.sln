@@ -5,6 +5,13 @@ VisualStudioVersion = 17.7.33906.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextSwitching", "ContextSwitching\ContextSwitching.csproj", "{ADE3C818-DE1E-417F-ABB7-502190A138D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedResources", "SharedResources\SharedResources.csproj", "{CBA477A7-0C2C-469C-A957-CF56098EF4DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79A55CC7-A315-41D8-B7FC-A3356E7EBD7E}"
+	ProjectSection(SolutionItems) = preProject
+		info.txt = info.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{ADE3C818-DE1E-417F-ABB7-502190A138D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE3C818-DE1E-417F-ABB7-502190A138D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE3C818-DE1E-417F-ABB7-502190A138D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA477A7-0C2C-469C-A957-CF56098EF4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA477A7-0C2C-469C-A957-CF56098EF4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA477A7-0C2C-469C-A957-CF56098EF4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA477A7-0C2C-469C-A957-CF56098EF4DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

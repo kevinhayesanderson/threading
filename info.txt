@@ -8,4 +8,9 @@ Timeslicing in single processor -> rapidly switch execution between each of the 
 preempted thread -> thread that has the execution interrupted, usually by timeslicing
 				 -> thread has no control over when and where it is preempted
 
+Threads:
+Run in parallel within a single process
+Share memory(Heap) with other threads running in the same application
 
+Processes:
+Are fully isolated from each other
