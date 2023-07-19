@@ -52,6 +52,16 @@ Tasks:
         - Operations can take an indeterminate amount of time becaus..
         - Release local resources while waiting for response
         - For these operations, Tasks can use TaskCompletionSource
+
+    - Continuation:
+        - Asynchronous task that is invoked by another task called a..
+    - Task Chaining:
+        - Pass data from the antecedent to the continuation task
+        - Use exception passing from antecedent to continuation
+        - Control how the continuation is invoked
+        - Able to cancel continuation
+        - Invoke multiple continuation from same antecedent
+        - Invoke continuation based on completion of antecedents
 ```
 ---- 
 
