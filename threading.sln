@@ -5,15 +5,17 @@ VisualStudioVersion = 17.7.33906.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextSwitching", "ContextSwitching\ContextSwitching.csproj", "{ADE3C818-DE1E-417F-ABB7-502190A138D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedResources", "SharedResources\SharedResources.csproj", "{CBA477A7-0C2C-469C-A957-CF56098EF4DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedResources", "SharedResources\SharedResources.csproj", "{CBA477A7-0C2C-469C-A957-CF56098EF4DB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79A55CC7-A315-41D8-B7FC-A3356E7EBD7E}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
 		info.yaml = info.yaml
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalMemory", "LocalMemory\LocalMemory.csproj", "{6B101810-2DC9-46D6-8642-3BD27ED81BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalMemory", "LocalMemory\LocalMemory.csproj", "{6B101810-2DC9-46D6-8642-3BD27ED81BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPool", "ThreadPool\ThreadPool.csproj", "{5BC6252C-0D3E-4EE5-B431-59F437B44ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6B101810-2DC9-46D6-8642-3BD27ED81BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B101810-2DC9-46D6-8642-3BD27ED81BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B101810-2DC9-46D6-8642-3BD27ED81BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC6252C-0D3E-4EE5-B431-59F437B44ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC6252C-0D3E-4EE5-B431-59F437B44ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC6252C-0D3E-4EE5-B431-59F437B44ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC6252C-0D3E-4EE5-B431-59F437B44ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
