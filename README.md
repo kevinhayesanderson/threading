@@ -12,6 +12,12 @@ Context Switching:
 Threads:
     - Run in parallel within a single process
     - Share memory(Heap) with other threads running in the same appl..
+    - Lowest-level constructs of multi-threading
+    - Complicated process to return a value from a separate thread
+    - to get value from another thread:
+        - use a shared field to store the value from worker thread
+        - use join to wait for the thread
+        - access the value of shared field from main thread
 
 Processes:
     - Are fully isolated from each other
@@ -32,6 +38,20 @@ Thread Pool:
 Background Thread:
     - Identical to foreground threads, except the managed execution ..
     - If the main thread dies, background threads will terminate abr..
+
+Tasks:
+    - Higher-level abstractions of thread
+    - Capable of returning values
+    - Can be chained
+    - May use a thread pool
+    - Very handy for I/O bound operations
+    - CPU Bound operations:
+        - Uses resources of a local machine
+    - I/O Bound operations:
+        - Out-of-process calls(call to db, api, webServer ..etc)
+        - Operations can take an indeterminate amount of time becaus..
+        - Release local resources while waiting for response
+        - For these operations, Tasks can use TaskCompletionSource
 ```
 ---- 
 
