@@ -1,0 +1,2 @@
+//following command is used to create markDown from yaml file
+yaml2doc info.yaml README.md
