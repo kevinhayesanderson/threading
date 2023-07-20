@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterlocks", "Reader
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexLock", "MutexLock\MutexLock.csproj", "{6A42025C-63DD-49DF-A298-453BA1E64941}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores", "Semaphores\Semaphores.csproj", "{81EC8C57-482B-430C-A3B2-535928946AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{6A42025C-63DD-49DF-A298-453BA1E64941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A42025C-63DD-49DF-A298-453BA1E64941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A42025C-63DD-49DF-A298-453BA1E64941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EC8C57-482B-430C-A3B2-535928946AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EC8C57-482B-430C-A3B2-535928946AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EC8C57-482B-430C-A3B2-535928946AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EC8C57-482B-430C-A3B2-535928946AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
