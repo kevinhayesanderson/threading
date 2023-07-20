@@ -30,6 +30,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskChaining", "TaskChainin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocksAndMonitor", "LocksAndMonitor\LocksAndMonitor.csproj", "{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLocks", "NestedLocks\NestedLocks.csproj", "{63604191-254A-4B23-A297-4B10E2CEDBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63604191-254A-4B23-A297-4B10E2CEDBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63604191-254A-4B23-A297-4B10E2CEDBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63604191-254A-4B23-A297-4B10E2CEDBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63604191-254A-4B23-A297-4B10E2CEDBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
