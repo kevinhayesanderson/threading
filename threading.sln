@@ -28,17 +28,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TasksIo", "TasksIo\TasksIo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskChaining", "TaskChaining\TaskChaining.csproj", "{8485CE44-779A-41E4-93EF-E743E3DC9D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocksAndMonitor", "LocksAndMonitor\LocksAndMonitor.csproj", "{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocksAndMonitor", "LocksAndMonitor\LocksAndMonitor.csproj", "{41AB6378-07FC-4289-AFF6-D9E5CAF81BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedLocks", "NestedLocks\NestedLocks.csproj", "{63604191-254A-4B23-A297-4B10E2CEDBA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NestedLocks", "NestedLocks\NestedLocks.csproj", "{63604191-254A-4B23-A297-4B10E2CEDBA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deadlocks", "Deadlocks\Deadlocks.csproj", "{9E59099C-2033-4E31-89B4-D811DC550A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deadlocks", "Deadlocks\Deadlocks.csproj", "{9E59099C-2033-4E31-89B4-D811DC550A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterlocks", "ReaderWriterlocks\ReaderWriterlocks.csproj", "{947C3E6F-33BB-43E2-8758-0F326D17A53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReaderWriterlocks", "ReaderWriterlocks\ReaderWriterlocks.csproj", "{947C3E6F-33BB-43E2-8758-0F326D17A53E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexLock", "MutexLock\MutexLock.csproj", "{6A42025C-63DD-49DF-A298-453BA1E64941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutexLock", "MutexLock\MutexLock.csproj", "{6A42025C-63DD-49DF-A298-453BA1E64941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores", "Semaphores\Semaphores.csproj", "{81EC8C57-482B-430C-A3B2-535928946AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphores", "Semaphores\Semaphores.csproj", "{81EC8C57-482B-430C-A3B2-535928946AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSafety", "ThreadSafety\ThreadSafety.csproj", "{408FD79B-A40D-42AC-907B-A0D5A850505A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadAffinity", "ThreadAffinity\ThreadAffinity.csproj", "{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,6 +110,14 @@ Global
 		{81EC8C57-482B-430C-A3B2-535928946AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81EC8C57-482B-430C-A3B2-535928946AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81EC8C57-482B-430C-A3B2-535928946AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408FD79B-A40D-42AC-907B-A0D5A850505A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408FD79B-A40D-42AC-907B-A0D5A850505A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408FD79B-A40D-42AC-907B-A0D5A850505A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408FD79B-A40D-42AC-907B-A0D5A850505A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ Context Switching:
         - rapidly switch execution between each of the active threads
         - tens of milliseconds in windows
     preempted thread:
-        - thread that has the execution interrupted, usually by timeslicing
+        - thread that has the execution interrupted, usually by time-slicing
         - thread has no control over when and where it is preempted
 
 Threads:
@@ -65,7 +65,7 @@ Tasks:
 
 Synchronization:
     - Act of coordinating actions of multiple threads or tasks running concurrently
-    - Necessary when rumming multiple threads to get predictable outcomes
+    - Necessary when running multiple threads to get predictable outcomes
     - Methods to Synchronization:
           - Blocking Methods:
                 - Sleep
@@ -107,3 +107,36 @@ Synchronization:
 
 Useful Links:
     - https://www.albahari.com/
+
+Thread Safety:
+    - Code is thread safe if shared data structures are modified to ensure all threads behave properly and
+      do not have unintended interactions 
+    - .Net Framework static methods are thread safe
+    - Not all developer created static methods are thread safe
+    - When creating static methods,it is a best practice to make them thread safe
+
+Thread Affinity:
+    - Thread that instantiates an object is the only thread that is allowed to access its members
+    - Pros:
+        - Don't need a lock to access a UI object in WPF
+        - Able to access all objects within a thread without a lock,
+          since no other thread can access them
+    - Cons:
+        - Cannot call members on a thread that is thread safe from a different thread
+        - Requires request to be marshaled to the thread-safe thread that created the object 
+    
+Signaling:
+    - Synchronize shared resources among threads 
+    - Is used to notify another thread that it can not access a resource 
+      that was being used by the current thread
+    - EventWaitHandle calls for signaling:
+      - AutoResetEvent:
+        - used when a thread needs exclusive access to resource
+        - only one thread can access a resource at a time
+        - automatically closes
+        - A thread waits for a signal by calling WaitOne
+        - Calling Set signals release of a waiting thread
+        - If multiple threads call WaitOne, a queue is formed
+      - ManualResetEvent:
+        - 
+      - CountdownEvent:     
