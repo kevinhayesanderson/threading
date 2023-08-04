@@ -129,7 +129,7 @@ Signaling:
     - Synchronize shared resources among threads 
     - Is used to notify another thread that it can not access a resource 
       that was being used by the current thread
-    - EventWaitHandle calls for signaling:
+    - Three EventWaitHandle calls for signaling:
       - AutoResetEvent:
         - used when a thread needs exclusive access to resource
         - only one thread can access a resource at a time
@@ -137,6 +137,9 @@ Signaling:
         - A thread waits for a signal by calling WaitOne
         - Calling Set signals release of a waiting thread
         - If multiple threads call WaitOne, a queue is formed
+        - If Set is called when no thread is waiting, the handle stays open indefinitely
+        - Calling Set only releases one thread at a time, regardless of how many times it is called
+        - Can be created with an initial state of "signaled" by passing "true" in the constructor parameter
       - ManualResetEvent:
         - 
       - CountdownEvent:     

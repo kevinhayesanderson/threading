@@ -66,7 +66,7 @@ Tasks:
 
 Synchronization:
     - Act of coordinating actions of multiple threads or tasks runni..
-    - Necessary when rumming multiple threads to get predictable out..
+    - Necessary when running multiple threads to get predictable out..
     - Methods to Synchronization:
           - Blocking Methods:
                 - Sleep
@@ -105,6 +105,45 @@ Synchronization:
     - Spinning:
           - Consumes CPU for as long as the thread is blocked
           - while(x < limit)//uses CPU as long as the conditions is ..
+
+Useful Links:
+    - https://www.albahari.com/
+
+Thread Safety:
+    - Code is thread safe if shared data structures are modified to ..
+      do not have unintended interactions
+    - .Net Framework static methods are thread safe
+    - Not all developer created static methods are thread safe
+    - When creating static methods,it is a best practice to make the..
+
+Thread Affinity:
+    - Thread that instantiates an object is the only thread that is ..
+    - Pros:
+        - Don't need a lock to access a UI object in WPF
+        - Able to access all objects within a thread without a lock,
+          since no other thread can access them
+    - Cons:
+        - Cannot call members on a thread that is thread safe from a..
+        - Requires request to be marshaled to the thread-safe thread..
+
+Signaling:
+    - Synchronize shared resources among threads
+    - Is used to notify another thread that it can not access a reso..
+      that was being used by the current thread
+    - Three EventWaitHandle calls for signaling:
+      - AutoResetEvent:
+        - used when a thread needs exclusive access to resource
+        - only one thread can access a resource at a time
+        - automatically closes
+        - A thread waits for a signal by calling WaitOne
+        - Calling Set signals release of a waiting thread
+        - If multiple threads call WaitOne, a queue is formed
+        - If Set is called when no thread is waiting, the handle sta..
+        - Calling Set only releases one thread at a time, regardless..
+        - Can be created with an initial state of "signaled" by pass..
+      - ManualResetEvent:
+        -
+      - CountdownEvent:
 ```
 ---- 
 
