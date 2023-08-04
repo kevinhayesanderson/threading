@@ -144,6 +144,20 @@ Signaling:
       - ManualResetEvent:
         -
       - CountdownEvent:
+
+Task Parallel Library (TPL):
+    - Simplifies process of adding parallelism and concurrency to ap..
+    - Value is ability to scale degree of concurrency dynamically
+    - Handles partitioning of work
+    - Schedules threads on ThreadPool
+    - Allows for task cancellation
+    - Handles state management
+    - Not all code is suitable for parallelization
+    - Threading of any type has an associated overhead
+    - In some cases, multi-threading may be slower than sequential c..
+    - Set of public types and APIs found in :
+        - System.Threading
+        - System.Threading.Tasks
 ```
 ---- 
 
