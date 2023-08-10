@@ -158,6 +158,41 @@ Task Parallel Library (TPL):
     - Set of public types and APIs found in :
         - System.Threading
         - System.Threading.Tasks
+
+PLINQ:
+    - Automates parallelization
+    - Is declarative, not imperative
+    - Operators that can prevent a query from being parallelized:
+        - Take
+        - Select
+        - SelectMany
+        - Skip
+        - TakeWhile
+        - SkipWhile
+        - ElementAt
+    - Parallelized queries are not always faster than regular queries
+    - Anomalies:
+        - Join
+        - GroupBy
+        - GroupJoin
+        - Distinct
+        - Union
+        - Intersect
+        - Except
+    - Parallel queries can sometimes be executed sequentially
+    - Force parallelism by calling the following after AsParallel():
+        - .withExecutionMode(ParallelExecution.ForceParallelism)
+    - Merge Options in PLINQ:
+        - NotBuffered
+        - AutoBuffered
+        - FullyBuffered
+
+Task-Based Asynchronous Pattern (TAP):
+        - Returns Task or Task<TResult>
+        - Uses Async suffix
+        - Overloaded to accept cancellation token or IProgress<T>
+        - Returns quickly to the caller
+        - Frees up the thread if I/O bound
 ```
 ---- 
 

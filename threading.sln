@@ -62,6 +62,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationWithState", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCompletionSourceDemo", "TaskCompletionSourceDemo\TaskCompletionSourceDemo.csproj", "{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinqIntro", "PLinqIntro\PLinqIntro.csproj", "{B4C3F481-E15A-462A-835B-16568BE11CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinqDegreeParallel", "PLinqDegreeParallel\PLinqDegreeParallel.csproj", "{F7830FAC-CCE7-4B1E-A8E7-CCBA02AEA3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinqForAll", "PLinqForAll\PLinqForAll.csproj", "{6C291CF3-0CC7-497A-AC79-805050C040D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinqMergeOptions", "PLinqMergeOptions\PLinqMergeOptions.csproj", "{8810D44E-1C5F-4B38-9F12-C11ABC1C3675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tap", "Tap\Tap.csproj", "{48C3BAD2-3F48-4818-BC40-634AF6C9B090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -172,6 +182,26 @@ Global
 		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C3F481-E15A-462A-835B-16568BE11CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C3F481-E15A-462A-835B-16568BE11CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C3F481-E15A-462A-835B-16568BE11CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C3F481-E15A-462A-835B-16568BE11CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7830FAC-CCE7-4B1E-A8E7-CCBA02AEA3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7830FAC-CCE7-4B1E-A8E7-CCBA02AEA3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7830FAC-CCE7-4B1E-A8E7-CCBA02AEA3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7830FAC-CCE7-4B1E-A8E7-CCBA02AEA3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C291CF3-0CC7-497A-AC79-805050C040D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C291CF3-0CC7-497A-AC79-805050C040D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C291CF3-0CC7-497A-AC79-805050C040D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C291CF3-0CC7-497A-AC79-805050C040D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8810D44E-1C5F-4B38-9F12-C11ABC1C3675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8810D44E-1C5F-4B38-9F12-C11ABC1C3675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8810D44E-1C5F-4B38-9F12-C11ABC1C3675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8810D44E-1C5F-4B38-9F12-C11ABC1C3675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C3BAD2-3F48-4818-BC40-634AF6C9B090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C3BAD2-3F48-4818-BC40-634AF6C9B090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C3BAD2-3F48-4818-BC40-634AF6C9B090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C3BAD2-3F48-4818-BC40-634AF6C9B090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
