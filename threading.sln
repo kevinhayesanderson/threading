@@ -44,15 +44,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSafety", "ThreadSafet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadAffinity", "ThreadAffinity\ThreadAffinity.csproj", "{27FAFFCA-789D-4CE7-ADF7-5F3B95893E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoReset", "AutoReset\AutoReset.csproj", "{F38BF6EC-BA5E-4681-B35B-40C38F68E680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoReset", "AutoReset\AutoReset.csproj", "{F38BF6EC-BA5E-4681-B35B-40C38F68E680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWaySignaling", "TwoWaySignaling\TwoWaySignaling.csproj", "{A094B7C1-CD76-4EA9-9857-0438360098E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoWaySignaling", "TwoWaySignaling\TwoWaySignaling.csproj", "{A094B7C1-CD76-4EA9-9857-0438360098E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualReset", "ManualReset\ManualReset.csproj", "{7942C339-21C4-4DB8-B703-99896003C376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManualReset", "ManualReset\ManualReset.csproj", "{7942C339-21C4-4DB8-B703-99896003C376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countdown", "Countdown\Countdown.csproj", "{D2F7F2F4-F781-4DDE-92FD-6B42F6F3C499}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Countdown", "Countdown\Countdown.csproj", "{D2F7F2F4-F781-4DDE-92FD-6B42F6F3C499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tpl", "Tpl\Tpl.csproj", "{325BCEB8-F648-4B10-A59E-1ED66BCEA9A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tpl", "Tpl\Tpl.csproj", "{325BCEB8-F648-4B10-A59E-1ED66BCEA9A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelvsNormal", "ParallelvsNormal\ParallelvsNormal.csproj", "{78ACAE8C-092A-4DB4-9AB7-B3517C43A282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cancellation", "Cancellation\Cancellation.csproj", "{260E8AD7-CAD7-4B8F-832C-403119076223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,6 +152,14 @@ Global
 		{325BCEB8-F648-4B10-A59E-1ED66BCEA9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325BCEB8-F648-4B10-A59E-1ED66BCEA9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325BCEB8-F648-4B10-A59E-1ED66BCEA9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78ACAE8C-092A-4DB4-9AB7-B3517C43A282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78ACAE8C-092A-4DB4-9AB7-B3517C43A282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78ACAE8C-092A-4DB4-9AB7-B3517C43A282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78ACAE8C-092A-4DB4-9AB7-B3517C43A282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260E8AD7-CAD7-4B8F-832C-403119076223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260E8AD7-CAD7-4B8F-832C-403119076223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260E8AD7-CAD7-4B8F-832C-403119076223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260E8AD7-CAD7-4B8F-832C-403119076223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
