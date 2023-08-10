@@ -58,6 +58,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelvsNormal", "Paralle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cancellation", "Cancellation\Cancellation.csproj", "{260E8AD7-CAD7-4B8F-832C-403119076223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationWithState", "ContinuationWithState\ContinuationWithState.csproj", "{C151064A-7B9A-478F-B2C9-2362B810FEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCompletionSourceDemo", "TaskCompletionSourceDemo\TaskCompletionSourceDemo.csproj", "{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -160,6 +164,14 @@ Global
 		{260E8AD7-CAD7-4B8F-832C-403119076223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260E8AD7-CAD7-4B8F-832C-403119076223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260E8AD7-CAD7-4B8F-832C-403119076223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C151064A-7B9A-478F-B2C9-2362B810FEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C151064A-7B9A-478F-B2C9-2362B810FEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C151064A-7B9A-478F-B2C9-2362B810FEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C151064A-7B9A-478F-B2C9-2362B810FEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4846A8AE-16FE-4543-B3EF-2C33AABAB14F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
